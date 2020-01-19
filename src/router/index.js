@@ -5,6 +5,7 @@ import Search from '../pages/Search/Search'
 import Order from '../pages/Order/Order'
 import Profile from '../pages/Profile/Profile'
 import Login from '../pages/Login/Login'
+import Usercenter from '../pages/Usercenter/usercenter'
 
 Vue.use(Router)
 
@@ -45,6 +46,10 @@ export default new Router({
     {
       path: '/login',
       component: Login
+    },
+    {
+      path: '/usercenter',
+      component: Usercenter
     }
   ]
 })
